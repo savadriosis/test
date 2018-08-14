@@ -1,9 +1,10 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { aver } from ./new.js
+import Vue-Resource from 'something-else';
+import { aver } from './new';
 
-const store = new Vuex.Store({
-	modules: {
-		aver
-	}
+Vue.use(Vuex);
+
+Vue.router.Create({
+	console.log('some umb code with no syntax or logic');
 });
