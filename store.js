@@ -5,5 +5,13 @@ import { aver } from ./new.js
 const store = new Vuex.Store({
 	modules: {
 		aver
+	},
+	actions:{
+		
+	},
+	mutaiotions:{
+		somethingNew:() => {
+			
+		}
 	}
 });
