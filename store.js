@@ -1,14 +1,9 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import { aver } from ./new.js
 
-const store = new Vex.Store({
-	state:{
-		counter: 0
-	},
-	mutaions:{
-
-	},
-	getters:{
-		
+const store = new Vuex.Store({
+	modules: {
+		aver
 	}
 });
